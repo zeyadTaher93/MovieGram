@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        API.requestNewMovies(page: 1) { (movies) in
+        API.getRecommendation(id: 496243) { (movies) in
             
         }
     }
